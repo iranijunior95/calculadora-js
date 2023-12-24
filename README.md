@@ -8,7 +8,7 @@
 
 ### 🎨 Layout
 
-- O .
+- A baixo o design da aplicação em execução.
 
 <p align="center">
   <img alt="bannerCalcJS" title="#bannerCalcJS" src="./img/bannerCalcJS.png">
