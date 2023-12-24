@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #df8615;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4em;
+}
+
+#calc {
+    width: 400px;
+    padding: 0.5em;
+    background-color: #f0f0d8;
+    color: #1f1f1f;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #7a8370;
+    border-radius: 5px;
+}
+
+#calc h3 {
+ font-size: .8em;
+ font-weight: 400;
+ color: #7a8370;
+}
+
+#tela-operacoes {
+    text-align: right;
+}
+
+#previous-operacoes {
+    color: #7a8370;
+    padding: 0.2em;
+    overflow-wrap: break-word;
+    min-height: 1.6em;
+}
+
+#current-operacoes {
+    color: #343533;
+    min-height: 1.6em;
+    font-size: 3em;
+    font-weight: 700;
+    padding: 0.2em;
+    overflow-wrap: break-word;
+}
+
+#container-butoes {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 3px;
+}
+
+#container-butoes button {
+    border: 1px solid transparent;
+    height: 3.5em;
+    font-size: 1.2em;
+    background-color: #FFF;
+    cursor: pointer;
+    font-weight: bolder;
+    color: #f84600;
+}
+
+#container-butoes .number {
+    background-color: #f7f6f6;
+    color: #1f1f1f;
+}
+
+#container-butoes #equal-btn {
+    background-color: #f84600;
+    color: #FFF;
+}
+
+#container-butoes #equal-btn:hover {
+    background-color: #fa5919;
+    border-color: #df8615;
+}
+
+#container-butoes button:hover {
+    background-color: #d8d8c0;
+    border-color: #7a8370;
+}
+
+
