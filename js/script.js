@@ -9,33 +9,32 @@ botoes.forEach((btns) => {
         const valor = btns.innerText;
 
         if(+valor >= 0 || valor === ".") {
-            console.log('numero: '+valor);
             calc.adicionarDigitos(valor);
         }else {
             
             switch (valor) {
                 case 'CE':
-                    console.log('operação: CE');
+                    calc.limparTela();
                     break;
 
                 case 'backspace':
-                    console.log('operação: backspace');
+                    calc.deletarDigito();
                     break;
 
                 case 'percent':
-                    console.log('operação: porcentagem');
+                    calc.porcentagem();
                     break;
 
                 case 'pen_size_3':
-                    console.log('operação: divisao');
+                    calc.dividir();
                     break;
 
                 case 'close':
-                    console.log('operação: multiplicação');
+                    calc.multiplicar();
                     break;
 
                 case 'remove':
-                    console.log('operação: subtração');
+                    calc.subtrair();
                     break;
 
                 case 'add':
@@ -43,7 +42,7 @@ botoes.forEach((btns) => {
                     break;
 
                 case 'equal':
-                    console.log('operação: igualdade');
+                    calc.igualdade();
                     break;
             }
 
